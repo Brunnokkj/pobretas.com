@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en"i >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000001"/>
+  <meta property="og:image" content="https://cdn.discordapp.com/emojis/911692966060511274.png?size=96">
+  <link rel="shortcut icon" href="https://cdn.discordapp.com/emojis/936974683117588522.webp?size=96&quality=lossless" type="image/gif">
+  <meta property="og:title" content="*:☆`"/>
+  <meta property="og:description" content="<%=guild.name%>">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900'>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="at-section">
+
+
+  <div class="at-server__avatar">
+  <img src="https://cdn.discordapp.com/icons/<%=guild.id%>/<%=guild.icon%>"/>
+  </div>
+
+    <div class="at-section__title"><%=guild.name%></div>
+    <div id="button" style="cursor:pointer" onclick="servidor()"> ENTRAR </div>
+  </div>
+
+  <script>
+  const servidor = () => window.open('https://discord.gg/gifparty', '_blank');
+  document.body.style.backgroundColor = `#000001`;
+  </script>
+
+
+ <% info.forEach((element, index) => { %>
+   <% if(index == 0) { %>
+   <div class="at-grid" data-column="4">
+   <% } %>
+    <div class="at-column">
+      <div class="at-user">
+        <div class="at-user__avatar">
+        <img src="https://cdn.discordapp.com/avatars/<%=element.id%>/<%=element.avatar%>" alt="<%=element.username%>"/>
+        </div>
+
+        <div class="at-user__name"><%=element.username%>#<%=element.discriminator%></div>
+
+<img src="https://cdn.discordapp.com/emojis/942675774035619870.webp?size=96&quality=lossless" width="20" height="15">
+
+        </ul>
+      </div>
+    </div>
+<% }) %>
+
+<script>
+    function titlebar(val){
+        var msg  = "gozopink";
+        var res = " ";
+        var speed = 100;
+        var pos = val;
+        msg = ""+msg+"";
+        var le = msg.length;
+        if(rev == "fwd"){
+            if(pos < le){
+                pos = pos+1;
+                scroll = msg.substr(0,pos);
+                document.title = scroll;
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+            else {
+                rev = "bwd";
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+        }
+        else {
+            if(pos > 0) {
+                pos = pos-1;
+                var ale = le-pos;
+                scrol = msg.substr(ale,le);
+                document.title = scrol;
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+            else {
+                rev = "fwd";
+                timer = window.setTimeout("titlebar("+pos+")",speed);
+            }
+        }
+    }
+    titlebar(0);
+    </script>
+
+
+
+        </ul>
+      </div>
+<center>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NYX6e7X3jQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </center>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
