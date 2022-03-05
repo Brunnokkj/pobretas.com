@@ -13,9 +13,9 @@ O projeto não está pronto ainda, portanto sinta-se livre para dar commit/fork 
 - [x] Sistema de loop nos ids para facilitar e compactar o código.
 - [ ] Badges automaticas.
 
-## 🚀 Instalando <pobretas.com>
+## 🚀 Instalando pobretas.com
 
-Para instalar o <pobretas.com>, siga estas etapas:
+Para instalar o pobretas.com, siga estas etapas:
 
 Comando:
 ```
