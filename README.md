@@ -25,7 +25,7 @@ Comando:
 npm i
 ```
 
-Para usar, siga estas etapas:
+Para usar, retire o "_exemplo" do arquivo env e configure desta maneira:
 
 ```
 PORT= PORT
