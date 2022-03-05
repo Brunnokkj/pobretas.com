@@ -31,7 +31,6 @@ Para usar, retire o "_exemplo" do arquivo env e configure desta maneira:
 PORT= PORT
 GUILD_ID= ID DO SERVIDOR
 TOKEN= TOKEN DO BOT
-
 ```
 
 # IMPORTANTE
