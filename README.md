@@ -7,7 +7,7 @@
 
 ### Ajustes e melhorias
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+O projeto não está pronto ainda, portanto sinta-se livre para dar commit/fork e melhorá-lo, tarefas pendentes:
 
 - [x] Avatar atualizando com o discord.
 - [x] Sistema de loop nos ids para facilitar e compactar o código.
